@@ -2,7 +2,7 @@
     <v-container class="pt-6">
         <v-row class="text-center">
             <v-col cols="4" offset="4">
-                <v-text-field label="Search" dark v-model="searchWord"></v-text-field>
+                <v-text-field label="Search" placeholder="Type something to search!" dark v-model="searchWord"></v-text-field>
             </v-col>
         </v-row>
 
